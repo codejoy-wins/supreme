@@ -1,0 +1,28 @@
+body{
+    background-image: url('/static/football/images/arod2.jpg');
+    background-size: cover;
+    background-size: 100%;
+
+}
+a{
+    color:gold;
+    text-decoration: none;
+    font-size: 3ch;
+}
+a:hover {
+    color: greenyellow;
+    background-color:black;
+    padding:10px;
+}
+#stuff {
+    padding:15px;
+    background-color:green;
+    display: inline-block;
+    opacity: .5;
+}
+#massive {
+    text-align: center;
+    font-size:5ch;
+    color: gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

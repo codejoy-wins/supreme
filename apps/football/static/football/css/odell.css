@@ -1,0 +1,10 @@
+body{
+    background-image: url('/static/football/images/obj.jpg');
+    background-size:cover;
+    color:blue;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: gold;
+    color:green;
+}

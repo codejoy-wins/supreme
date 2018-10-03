@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adder</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'football/images/football.png' %}" />
+
+    <link rel="stylesheet" href="{% static 'football/css/add.css' %}">
+</head>
+<body>
+    <h1>Add Player</h1>
+    <a href="/"><img src="/static/football/images/home.svg" alt="home icon" height="40px"></a>
+
+    <form action="/create" method="POST">
+    {% csrf_token %}
+    <p>First Name: <input type="text" name="first_name"></p>
+    <p>Last Name: <input type="text" name="last_name"></p>
+    <p><select name="position" id="position">
+        <option value="wide receiver">Wide Receiver</option>
+        <option value="running back">Running Back</option>
+        <option value="quarterback">Quarterback</option>
+        <option value="tight end">Tight End</option>
+    </select></p>
+    <p>NFL Team: <input type="text" name="nfl_team"></p>
+    <p>Rank: <input type="text" name="rank"></p>
+    <p>Summary:<textarea name="summary" id="summary" cols="30" rows="10"></textarea></p>
+    <p>Identifier: <input type="text" name="identifier" value="basic"></p>
+    <input type="submit"value="Create Player" >
+    </form>
+<!-- should have a form for editing players data too -->
+</body>
+</html>

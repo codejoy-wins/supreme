@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>rbs</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'football/images/football.png' %}" />
+
+    <link rel="stylesheet" href="{% static 'football/css/rbs.css' %}">
+
+</head>
+<body>
+    <div id ="list">
+            <h1>Running Backs</h1>
+            {% for rb in rbs|dictsort:"rank" %}
+                <p> <a href="/player/{{rb.id}}">{{rb.first_name}} {{rb.last_name}}</a></p>
+            {% endfor %}
+    </div>
+    
+    <div><a href="/"><img src="/static/football/images/home.svg" alt="home icon" height="40px"></a></div>
+</body>
+</html>

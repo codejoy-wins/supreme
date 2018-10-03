@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ranked {{user.power}}</title>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+    <link rel="shortcut icon" href="{% static 'football/images/football.png' %}" />
+
+    <link rel="stylesheet" href="{% static 'football/css/x.css' %}">
+</head>
+<body class = {{user.first_name}}>
+    <div id="rapper">
+       <h2><a href="/"><img src="/static/football/images/home.svg" alt="home icon" height="30px"></a></h2>
+        <div id="header">
+            <div id="d"> <a href="/edit/team/{{user.id}}">{{user.team_name}}</a></div>
+             <a href="/players" id="p">all players</a>|<a href="/power" id="p">Power Rankings</a>
+
+        </div>
+        <div id = "spacer2"></div>
+        
+       <!-- <div id = "spacer"></div> -->
+       
+       <!-- <div id = "bio">
+           {{user.bio}}
+       </div> -->
+       <div></div>
+       <div id ="new">
+        <h2>Starters</h2>
+     <table>
+         </tr>
+         {% for qb in drafted_qbs %}
+         
+         <tr>
+             <th>QB</th>
+             <td><a href="/player/{{qb.id}}">{{qb.first_name}} {{qb.last_name}}</a>  <a href="/sit/{{user.id}}/{{qb.id}}"> <span id = "hide">Sit {{qb.last_name}}?</span></a></td>
+        {% endfor %}
+
+         </tr>
+         {% for rb in drafted_rbs %}
+         
+         <tr>
+             <th>RB</th>
+             <td><a href="/player/{{rb.id}}">{{rb.first_name}} {{rb.last_name}}</a><a href="/sit/{{user.id}}/{{rb.id}}"> <span id = "hide">Sit {{rb.last_name}}?</span></a></td>
+        {% endfor %}
+
+         </tr>
+         {% for wr in drafted_wrs %}
+         
+         <tr>
+             <th>WR</th>
+             <td><a href="/player/{{wr.id}}">{{wr.first_name}} {{wr.last_name}}</a><a href="/sit/{{user.id}}/{{wr.id}}"> <span id = "hide">Sit {{wr.last_name}}?</span></a></td>
+        {% endfor %}
+
+         </tr>
+     </tr>
+     {% for te in drafted_tes %}
+     
+     <tr>
+         <th>TE</th>
+         <td><a href="/player/{{te.id}}">{{te.first_name}} {{te.last_name}}</a><a href="/sit/{{user.id}}/{{te.id}}"> <span id = "hide">Sit {{te.last_name}}?</span></a></td>
+    {% endfor %}
+
+     </tr>
+     </table>
+     
+    </div>
+       <div id ="new">
+           <h2>Bench</h2>
+        <table>
+            </tr>
+            {% for qb in my_qbs %}
+            
+            <tr>
+                <th>QB</th>
+                <td><a href="/player/{{qb.id}}">{{qb.first_name}} {{qb.last_name}}</a><a href="/starting/{{user.id}}/{{qb.id}}"><span id ="hide">Start {{qb.last_name}}?</span></a></td>
+           {% endfor %}
+
+            </tr>
+            {% for rb in my_rbs %}
+            
+            <tr>
+                <th>RB</th>
+                <td><a href="/player/{{rb.id}}">{{rb.first_name}} {{rb.last_name}}</a><a href="/starting/{{user.id}}/{{rb.id}}"><span id ="hide">Start {{rb.last_name}}?</span></a></td>
+           {% endfor %}
+
+            </tr>
+            {% for wr in my_wrs %}
+            
+            <tr>
+                <th>WR</th>
+                <td><a href="/player/{{wr.id}}">{{wr.first_name}} {{wr.last_name}}</a><a href="/starting/{{user.id}}/{{wr.id}}"><span id ="hide">Start {{wr.last_name}}?</span></a></td>
+           {% endfor %}
+
+            </tr>
+        </tr>
+        {% for te in my_tes %}
+        
+        <tr>
+            <th>TE</th>
+            <td><a href="/player/{{te.id}}">{{te.first_name}} {{te.last_name}}</a><a href="/starting/{{user.id}}/{{te.id}}"><span id ="hide">Start {{te.last_name}}?</span></a></td>
+       {% endfor %}
+
+        </tr>
+        </table>
+       </div>
+       <div id="record">
+        <h4>Record: {{user.wins}}-{{user.losses}}</h4>
+   </div>
+       <div id = "spacer"></div>
+    </div>
+</body>
+</html>

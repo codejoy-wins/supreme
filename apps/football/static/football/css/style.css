@@ -1,0 +1,152 @@
+/* outline not working */
+
+.blue{
+    color: blue;
+}
+#starters{
+    opacity: .5;
+    color:gold;
+    display:inline-block;
+    padding: 40px;
+    margin:20px;
+    /* background-color:rgb(17, 218, 17); */
+}
+#bench{
+    opacity: .5;
+    color:red;
+    display:inline-block;
+    padding: 40px;
+    margin:20px;
+    /* background-color:rgb(184, 32, 22); */
+}
+#players{
+    /* margin-left:40px; */
+    opacity: .7;
+    color:gold;
+    display:inline-block;
+    padding: 40px;
+    margin:20px;
+    background-color:black;
+    height:600px;
+}
+#hot{
+    color:gold;
+    background-color: black;
+    padding: 10px;
+}
+#users{
+    background-color: black;
+    text-align: right;
+    float: right;
+    opacity: .5;
+    color:gold;
+    text-decoration-color: none;
+    text-decoration: none;
+    /* display:inline-block; */
+    font-size: 1.4em;
+    padding: 40px;
+    margin:20px;
+    overflow: auto;
+    height:660px;
+    /* background-color:rgb(184, 32, 22); */
+    vertical-align: top;
+}
+#users a{
+    color:lightblue;
+}
+#title{
+    opacity: .5;
+
+    color:pink;
+    background-color:black;
+    padding:20px;
+    margin:10px;
+}
+#header{
+    opacity: .5;
+
+    color:pink;
+    background-color:black;
+    padding:20px;
+    margin:10px;
+    font-size: 38px;
+}
+#title2{
+    opacity: .5;
+
+    color:pink;
+    background-color:black;
+    padding:20px;
+    margin:10px;
+    display: inline-block;
+    vertical-align: top;
+}
+#record{
+    opacity: .5;
+
+    display: inline-block;
+    font-size: 5ch;
+    background-color:gray;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin:10px;
+}
+#xp {
+    opacity: .7;
+
+    color:white;
+    font-size:26px;
+}
+#overflow{
+    overflow:auto;
+    height: 525px;
+}
+#p{
+    text-align: right;
+    float: right;
+}
+#d{
+    display: inline-block;
+}
+#my_players{
+    opacity: .5;
+
+    /* outline: 4ch; */
+    /* outline-style: groove; */
+    /* outline-color: aqua; */
+    /* background-color:blue; */
+    color: white;
+    display: inline-block;
+}
+#rapper{
+    /* background-image:url("/static/football/images/nfl.jpg"); */
+    /* background-size:cover; */
+    margin: 0 auto;
+}
+body {
+    background-image:url("/static/football/images/nfl.jpg");
+    background-size:cover;
+    background-size:100%;
+
+}
+#new{
+    background-color:gold;
+    opacity: .4;
+    display: inline-block;
+    font-size: 4ch;
+    line-height: 150%;
+}
+#aqua{
+    color:aqua;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#clear{
+    color:white;
+    text-decoration: none;
+    text-decoration-color: white;
+}

@@ -1,0 +1,767 @@
+
+h2 a{
+    color:white;
+}
+#green{
+    color:white;
+    background-color: black;
+    text-decoration: none;
+}
+#other {
+    text-align: left;
+}
+#details{
+    margin-left:30%;
+    /* background-color:blue; */
+    opacity: .5;
+    display: inline-block;
+    padding: 14px;
+    width:50%;
+    text-align: center;
+    background-color: black;
+    /* color: black; */
+}
+#spacer {
+    height:300px;
+    text-align: left;
+    /* background-color:blue; */
+}
+/* unidentified player */
+.basic{
+    background-image:url('/static/football/images/nfl2.jpg');
+    background-size: cover;
+    color: aqua;
+    background-size: 100%;
+
+}
+/* Tyreek Hill */
+.Tyreek{
+    background-image:url('/static/football/images/freak.jpg');
+    background-size: cover;
+    color: red;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Rob Gronkowski */
+.Gronk{
+    background-image:url('/static/football/images/gronk.jpg');
+    background-size: cover;
+    color: aqua;
+    background-size: 100%;
+
+}
+/* Le'Veon Bell */
+.Bell{
+    background-image:url('/static/football/images/bell.jpg');
+    background-size: cover;
+    color: gold;
+    background-size: 100%;
+
+}
+/* Todd Gurley */
+.Gurley{
+    background-image:url('/static/football/images/gurley.jpg');
+    background-size: cover;
+    color: gold;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Julio Jones */
+.Julio{
+    background-image:url('/static/football/images/julio.jpg');
+    /* background-size: cover; */
+    background-size: 39cm;
+    color: rgb(227, 41, 8);
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Cam Newton */
+.Cam{
+    background-image:url('/static/football/images/cam.jpg');
+    background-size: cover;
+    color: rgb(0, 225, 255);
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Michael Thomas */
+.MT{
+    background-image:url('/static/football/images/MT.jpg');
+    background-size: cover;
+    color: gold;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Davante Adams */
+.Davante{
+    background-image:url('/static/football/images/Davante.jpeg');
+    background-size: cover;
+    background-size: 100%;
+
+    color: green;
+    text-align: center;
+}
+/* Zach Ertz */
+.Ertz{
+    background-image:url('/static/football/images/zach.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    background-size: 100%;
+
+}
+/* Christian McCaffery */
+.CM{
+    background-image:url('/static/football/images/cm2.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Leonard Fournette */
+.Fournette{
+    background-image:url('/static/football/images/fournette.jpg');
+    background-size: cover;
+    color: green;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* David Johnson */
+.DJ{
+    background-image:url('/static/football/images/dj.jpg');
+    background-size: cover;
+    color: red;
+    text-align: center;
+    background-size: 100%;
+
+}
+/* Tom Brady */
+.Brady{
+    background-image:url('/static/football/images/tb12.jpg');
+    background-size: cover;
+    color: rgb(117, 117, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3ch;
+    background-size: 100%;
+
+}
+/* Aaron Rodgers */
+.Arod{
+    background-image:url('/static/football/images/arod2.jpg');
+    background-size: cover;
+    color: rgb(117, 117, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3ch;
+    background-size: 100%;
+
+}
+/* Larry Fitzgerald */
+.Larry{
+    background-image:url('/static/football/images/larry.jpg');
+    background-size: cover;
+    color: rgb(117, 117, 219);
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Deshaun Watson */
+.Deshaun{
+    background-image:url('/static/football/images/dw.jpg');
+    background-size: cover;
+    color: rgb(117, 117, 219);
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Joe Mixon */
+.Mixon{
+    background-image:url('/static/football/images/mixon.jpg');
+    background-size: cover;
+    color: rgb(228, 107, 15);
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Michael Jann */
+.MJ{
+    background-image:url('/static/football/images/mj.jpg');
+    background-size: cover;
+    color: whitesmoke;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* TY Hilton */
+.TY{
+    background-image:url('/static/football/images/ty.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Lesean McCoy */
+.McCoy{
+    background-image:url('/static/football/images/lesean.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Alvin Kamara */
+.Kamara{
+    background-image:url('/static/football/images/kamara.jpg');
+    background-size: cover;
+    color: gold;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Ezekiel Elliot */
+.Zeke{
+    background-image:url('/static/football/images/zeke.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* DeAndre Hopkins */
+.Hop{
+    background-image:url('/static/football/images/hop.webp');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* AJ Green */
+.AJ{
+    background-image:url('/static/football/images/aj.jpg');
+    background-size: cover;
+    color: orange;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Luck */
+.Luck{
+    background-image:url('/static/football/images/luck.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Mike Evans */
+.Evans{
+    background-image:url('/static/football/images/evans.jpeg');
+    background-size: cover;
+    color: red;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Keenan Allen */
+.Keenan{
+    background-image:url('/static/football/images/keen.jpg');
+    background-size: cover;
+    color: silver;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Antonio Brown */
+.ab{
+    background-image:url('/static/football/images/ab.jpg');
+    background-size: cover;
+    color: gold;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Josh Gordon */
+.Flash{
+    background-image:url('/static/football/images/jg.jpg');
+    background-size: 100%;
+    color: orange;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Odell Beckham Jr. */
+.obj{
+    background-image:url('/static/football/images/odb.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Saquon Barkley */
+.saquon{
+    background-image:url('/static/football/images/barkley.jpg');
+    background-size: cover;
+    color: silver;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Doug Baldwin */
+.doug{
+    background-image:url('/static/football/images/baldwin.jpg');
+    background-size: cover;
+    color: green;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Chris Carson */
+.cc{
+    background-image:url('/static/football/images/carson.jpg');
+    background-size: cover;
+    color: green;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Max Jann */
+.codejoy{
+    background-image:url('/static/football/images/doug.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Jimmy Graham */
+.monster{
+    background-image:url('/static/football/images/monster.jpg');
+    background-size: cover;
+    color: greenyellow;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Kareem Hunt */
+.hunt{
+    background-image:url('/static/football/images/hunt.jpg');
+    background-size: cover;
+    color: greenyellow;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Derrick Henry */
+.derrick{
+    background-image:url('/static/football/images/ohenry.jpg');
+    background-size: cover;
+    color: lightskyblue;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Drew Brees */
+.brees{
+    background-image:url('/static/football/images/brees.jpg');
+    background-size: cover;
+    color: gold;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Corey Davis */
+.corey{
+    background-image:url('/static/football/images/corey.jpg');
+    background-size: cover;
+    color: lightblue;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Devonta Freeman */
+.freeman{
+    background-image:url('/static/football/images/freeman.jpg');
+    background-size: cover;
+    color: red;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Travis Kelce */
+.kelce{
+    background-image:url('/static/football/images/kelce.jpg');
+    background-size: cover;
+    color: orange;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Jay Ajayi */
+.ajayi{
+    background-image:url('/static/football/images/ajayi.jpg');
+    background-size: cover;
+    color: green;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Dalvin Cook */
+.cook{
+    background-image:url('/static/football/images/cook.jpg');
+    background-size: cover;
+    color: purple;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Jerick Mckinnon */
+.jerick{
+    background-image:url('/static/football/images/jerick.jpg');
+    background-size: cover;
+    color: purple;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Juju Smith-Schuester */
+.juju{
+    background-image:url('/static/football/images/juju.jpg');
+    background-size: cover;
+    color: gold;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Randall Cobb */
+.cobb{
+    background-image:url('/static/football/images/cobb.jpg');
+    background-size: cover;
+    color: green;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Will Fuller */
+.fuller{
+    background-image:url('/static/football/images/fuller.jpg');
+    background-size: cover;
+    color: blue;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Melvin Gordon */
+.melvin{
+    background-image:url('/static/football/images/gordon.jpg');
+    background-size: cover;
+    color: lightblue;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Dion Lewis */
+.dion{
+    background-image:url('/static/football/images/lewis.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Stefon Diggs */
+.diggs{
+    background-image:url('/static/football/images/diggs.jpg');
+    background-size: cover;
+    color: purple;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Demaryius Thomas */
+.DT{
+    background-image:url('/static/football/images/dt.jpg');
+    background-size: cover;
+    color: orange;
+    text-align: left;
+    background-size: 100%;
+
+}
+/* Amari Cooper */
+.cooper{
+    background-image:url('/static/football/images/cooper.jpg');
+    background-size: cover;
+    color: silver;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Jarvis Landry */
+.landry{
+    background-image:url('/static/football/images/jarvis.jpg');
+    background-size: cover;
+    color: whitesmoke;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Alex Collins */
+.ac{
+    background-image:url('/static/football/images/ac.jpg');
+    background-size: cover;
+    color: purple;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Marquise Goodwin */
+.goodwin{
+    background-image:url('/static/football/images/goodwin.jpg');
+    background-size: cover;
+    color: red;
+    text-align: right;
+    background-size: 100%;
+
+}
+/*  Marvin Jones Jr. */
+.marvin{
+    background-image:url('/static/football/images/marvin.jpg');
+    background-size: cover;
+    color: lightskyblue;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Adam Thielen */
+.thielen{
+    background-image:url('/static/football/images/thielen.jpg');
+    background-size: cover;
+    color: purple;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Allen Robinson */
+.ar{
+    background-image:url('/static/football/images/allen.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Chris Hogan */
+.hogan{
+    background-image:url('/static/football/images/hogan.jpg');
+    background-size: cover;
+    color: purple;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Jordy Nelson */
+.jordy{
+    background-image:url('/static/football/images/jordy.jpg');
+    background-size: cover;
+    color: green;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Sammy Watkins */
+.sammy{
+    background-image:url('/static/football/images/watkins.jpg');
+    background-size: cover;
+    color: purple;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Alshon Jeffery */
+.alshon{
+    background-image:url('/static/football/images/alshon.jpg');
+    background-size: cover;
+    color: darkgreen;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Royce Freeman */
+.royce{
+    background-image:url('/static/football/images/royce.jpg');
+    background-size: cover;
+    color: orange;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Ronald Jones */
+.rojo{
+    background-image:url('/static/football/images/rojo.jpg');
+    background-size: cover;
+    color: purple;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Duke Johnson */
+.duke{
+    background-image:url('/static/football/images/duke.jpg');
+    background-size: cover;
+    color: brown;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Tarik Cohen */
+.cohen{
+    background-image:url('/static/football/images/cohen.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Chris Thompson */
+.thompson{
+    background-image:url('/static/football/images/thompson.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Jordan Howard */
+.howard{
+    background-image:url('/static/football/images/howard.webp');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Marshawn Lynch */
+.beastmode{
+    background-image:url('/static/football/images/shawn.jpg');
+    background-size: cover;
+    color: silver;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Patrick Mahomes */
+.mahomes{
+    background-image:url('/static/football/images/mahomes.jpg');
+    background-size: cover;
+    color: silver;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Jordan Reed */
+.reed{
+    background-image:url('/static/football/images/jr.jpg');
+    background-size: cover;
+    color: lightcoral;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Lamar Miller */
+.miller{
+    background-image:url('/static/football/images/miller.jpg');
+    background-size: cover;
+    color: silver;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Doug Martin */
+.martin{
+    background-image:url('/static/football/images/martin.jpg');
+    background-size: cover;
+    color: silver;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Big Ben */
+.bigben{
+    background-image:url('/static/football/images/bigben.jpg');
+    background-size: cover;
+    color: gold;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Julian Edelman */
+.edelman{
+    background-image:url('/static/football/images/edelman.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Brandin Cooks */
+.cooks{
+    background-image:url('/static/football/images/cooks.jpg');
+    background-size: cover;
+    color: white;
+    text-align: right;
+    background-size: 100%;
+
+}
+/* Carlos Hyde */
+.hyde{
+    background-image:url('/static/football/images/hyde.png');
+    background-size: cover;
+    color: gold;
+    text-align: right;
+    background-size: 100%;
+}
+/* Derrick Carr */
+.carr{
+    background-image:url('/static/football/images/carr.jpg');
+    background-size: cover;
+    color: silver;
+    text-align: right;
+    background-size: 100%;
+}
+#gohome a{
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: black;
+    color:whitesmoke;
+    background-color:black;
+    padding: 5px;
+    padding-top:0px;
+    opacity: .6;
+    background-size: 100%;
+
+}
+
+#gohome a:hover {
+    background-color:blue;
+}
+
+#summary {
+    background-color:black;
+    line-height: 150%;
+    font-size: 3ch;
+    overflow: auto;
+    height: 400px;
+}
+* a{
+    color:gold;
+    text-decoration: none;
+}

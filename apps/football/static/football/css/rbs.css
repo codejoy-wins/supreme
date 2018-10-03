@@ -1,0 +1,26 @@
+body{
+    background-image: url('/static/football/images/zeke.jpg');
+    background-size: cover;
+    background-size: 100%;
+
+}
+#list{
+    background-color:silver;
+    display:inline-block;
+    padding:10px;
+    margin:10px;
+    opacity: .4;
+    overflow: auto;
+    height:800px;
+    color: blue;
+    overflow: auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    background-color:blue;
+    color: gold;
+    opacity: .9;
+    padding: 10px;
+}

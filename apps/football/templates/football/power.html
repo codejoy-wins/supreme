@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Power Rankings</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'football/images/light.jpeg' %}" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Yanone+Kaffeesatz" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'football/css/power.css' %}">
+</head>
+<body>
+        <div class="wrap"> <span>Power Ranks</span> </div>
+    <div id="pow">
+            {% for user in users|dictsort:"power" %}
+            <p><a href="/team/{{user.id}}">{{user.team_name}}</a> {{user.wins}}-{{user.losses}}</p>
+            <p>{{user.first_name}} {{user.last_name}}</p>
+            <p>{{user.bio}}</p>
+        {% endfor %}
+    </div>
+    <a href="/"><img src="/static/football/images/home.svg" alt="home icon" height="30px" id="home"></a>
+
+    <p>&copy; Jann Software</p>
+</body>
+</html>

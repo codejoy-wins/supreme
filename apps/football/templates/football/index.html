@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Westlake Fantasy Football</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'football/images/football.png' %}" />
+
+    <link rel="shortcut icon" href="{% static 'football/images/football.png' %}" />
+
+    <link rel="stylesheet" href="{% static 'football/css/welcome.css' %}">
+</head>
+<body>
+            <ul>
+                <li><a href="/add">Add</a></li>
+                <li>Teams
+                    
+                    <ul>
+                        {% for user in users %}
+                        <li><a href="/team/{{user.id}}">{{user.first_name}}</a></li>
+                        {% endfor %}
+                    </ul>
+                
+                </li>
+                <li><a href="/draft">Draft</a></li>
+
+                <li><a href="/players">Players</a>
+                    <ul>
+                        <li><a href="/qbs">Quarterbacks</a></li>
+                        <li><a href="/rbs">Running Backs</a></li>
+                        <li><a href="/wrs">Wide Receivers</a></li>
+                        <li><a href="/tes">Tight Ends</a></li>
+                    </ul>
+                </li>
+                <li><a href="/power">Power Rankings</a>
+                    <!-- sort by power -->
+                    <ul>
+                        {% for user in users|dictsort:"power" %}
+                        <li><a href="/team/{{user.id}}">{{user.team_name}}</a></li>
+                        {% endfor %}
+                    </ul>
+                
+                </li>
+                <li><a href="/team/1">Free Agents</a></li>
+            </ul>
+</body>
+</html>

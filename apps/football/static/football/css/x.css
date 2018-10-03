@@ -1,0 +1,155 @@
+#header2{
+    color:blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+}
+
+#header{
+    color:black;
+}
+*{
+    font-size:2vw;
+}
+h2 a{
+    color:aqua
+}
+* a{
+    color: red;
+    font-size: 2vw;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+#new {
+    display: inline-block;
+    width:30%;
+    background-color:black;
+    opacity: .3;
+    font-size:2vw;
+}
+#hide{
+    display:none;
+}
+tr td:hover #hide{
+    display:block;
+    /* background-color:green; */
+}
+
+#d{
+    font-size:3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#record{
+    font-size:3vw;
+    font-family: 'Old Standard TT', serif;
+
+    /* fix fantasy */
+    color:rgb(79, 68, 177);
+}
+/* a:hover{
+    background-color:white;
+    padding: 10px;
+} */
+#bio{
+    font-size: 3vw;
+    background-color:black;
+    opacity: .5;
+    color: aqua
+}
+#spacer{
+    height: 420px;
+}
+#spacer2{
+    height: 80px;
+}
+.Gordon {
+    color:silver;
+    background-image: url('/static/football/images/james.jpg');    
+    background-size: 100%;
+}
+.Maxwell {
+    color:gold;
+    background-image: url('/static/football/images/me.jpg');
+    background-size: 100%;
+    background-color:white;
+}
+.Michael {
+    color:gold;
+    background-image: url('/static/football/images/mckenna.jpg');
+    background-size: 100%;
+    /* background-size: cover; */
+    background-color:silver;
+}
+.Devin {
+    color:gold;
+    background-image: url('/static/football/images/devin.jpg');
+    background-size: 100%;
+    /* background-size: cover; */
+    background-color:silver;
+}
+.Chris {
+    color:gold;
+    background-image: url('/static/football/images/ckazz.jpg');
+    /* background-size: cover; */
+    background-size: 70%;
+    background-color:white;
+}
+.Justin {
+    color:gold;
+    background-image: url('/static/football/images/jsilbs.jpg');
+    /* background-size: cover; */
+    background-size: 100%;
+
+    background-color:white;
+}
+.Ernie {
+    color:gold;
+    background-image: url('/static/football/images/ernie.jpg');
+    background-size: 50%;
+
+    /* background-size: cover; */
+    background-color:white;
+}
+.Andrew {
+    color:gold;
+    background-image: url('/static/football/images/andrew.jpg');
+    /* background-size: cover; */
+    background-color:white;
+}
+.Trevor {
+    color:gold;
+    background-image: url('/static/football/images/trevor.jpg');
+    background-size: 100%;
+
+    /* background-size: cover; */
+    background-color:white;
+}
+.Devon {
+    color:gold;
+    background-image: url('/static/football/images/devo.jpg');
+    /* background-size: cover; */
+    background-size: 100%;
+
+    background-color:silver;
+}
+.Dylan {
+    color:gold;
+    background-image: url('/static/football/images/dylan.jpg');
+    background-size: 50%;
+    background-color:gray;
+}
+.Spencer {
+    color:gold;
+    background-image: url('/static/football/images/spencer.jpg');
+    /* background-size: cover; */
+    background-size: 100%;
+
+    background-color:whitesmoke;
+}
+.Sven {
+    color:gold;
+    background-image: url('/static/football/images/svede.jpg');
+    /* background-size: cover; */
+    background-size: 100%;
+
+    background-color:whitesmoke;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>wrs</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'football/images/football.png' %}" />
+
+    <link rel="stylesheet" href="{% static 'football/css/wrs.css' %}">
+
+</head>
+<body>
+    <div id ="list">
+            <h1>Wide Receivers</h1>
+            {% for wr in wrs|dictsort:"rank" %}
+                <p><a href="/player/{{wr.id}}">{{wr.first_name}} {{wr.last_name}}</a></p>
+            {% endfor %}
+    </div>
+    
+    <div><a href="/"><img src="/static/football/images/home.svg" alt="home icon" height="40px"></a></div>
+</body>
+</html>

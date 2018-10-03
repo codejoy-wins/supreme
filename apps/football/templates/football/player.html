@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Player Details</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'football/images/football.png' %}" />
+
+    <link rel="stylesheet" href="{% static 'football/css/player.css' %}">
+</head>
+<body>
+        
+    <div class = "{{player.identifier}}">
+            <div id ="gohome">
+                    <h1><a href="/"><img src="/static/football/images/home.svg" alt="home icon" height="40px"></a></h1>
+            </div>
+            <div id ="details">
+                    <h1 id ="green"><a href="/edit/{{player.id}}">{{player.first_name}} {{player.last_name}}</a></h1>
+                    
+                        <div id = "spacer">
+                            
+                        </div>
+                        <h2>Owned by <a href="/team/{{player.owner.id}}">{{player.owner.team_name}}</a> </h2>
+
+                        <div id = "other">
+                                <h3>Rank: {{player.rank}}</h4>
+                                    <h3>{{player.nfl_team}}  {{player.position}}</h3>
+                        </div>
+                    <p id = "summary">Summary: {{player.summary}}
+                            {% if player.identifier == "CM" %}
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/FtxcAi923k0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            {% endif %}
+                            <h2>
+                                2018 Touchdowns: {{player.touchdowns}}
+                            </h2>
+                            <h5><a href="/rbs">Backs</a><br>
+                                <a href="/wrs">Receivers</a><br>
+                                <a href="/power">Power Rankings</a>
+                            </h5>
+                            
+                    </p>
+                    
+                    
+        
+            </div>
+    </div>
+    
+</body>
+</html>

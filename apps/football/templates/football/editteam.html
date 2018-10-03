@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit Team</title>
+    
+</head>
+<body>
+        <a href="/"><img src="/static/football/images/home.svg" alt="home icon" height="30px"></a>
+    <h1>Edit {{user.first_name}}</h1>
+
+    <form action="/update/team/{{user.id}}" method="POST">
+        {% csrf_token %}
+        <p>First Name: <input type="text" value="{{user.first_name}}" name="first_name"></p>
+        <p>Last Name: <input type="text" value="{{user.last_name}}" name="last_name"></p>
+        <p>Wins: <input type="text" value="{{user.wins}}" name="wins"></p>
+        <p>Losses: <input type="text" value="{{user.losses}}" name="losses"></p>
+        <p>Power Ranking: <input type="text" value="{{user.power}}" name="power"></p>
+        <p>Email Address: <input type="text" value="{{user.email}}" name="email"></p>
+        <p>Password: <input type="text" value="{{user.password}}" name="password"></p>
+        <p>Team Name: <input type="text" value="{{user.team_name}}" name="team_name"></p>
+        <p>Bio: <textarea name="bio" id="biography" cols="30" rows="10">{{user.bio}}</textarea></p>
+        <!-- <p>Bio: <input type="text" value="{{user.team_name}}" name="bio"></p> -->
+        <p>Authenticator: <input type="password" name="authenticator"></p>
+        <!-- remove value of authenticator later -->
+        <p><input type="submit" value="Update Team"></p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Qbs</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'football/images/football.png' %}" />
+
+    <link rel="stylesheet" href="{% static 'football/css/qbs.css' %}">
+
+</head>
+<body>
+        <h1 id = "massive">Quarterbacks</h1>
+        <div><a href="/"><img src="/static/football/images/home.svg" alt="home icon" height="40px"></a></div>
+    <div id = "stuff">
+            
+            {% for qb in qbs|dictsort:"rank" %}
+                <p><a href="/player/{{qb.id}}">{{qb.first_name}} {{qb.last_name}}</a></p>
+            {% endfor %}
+            
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Draft</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'football/images/football.png' %}" />
+
+    <link rel="stylesheet" href="{% static 'football/css/style.css' %}">
+</head>
+<body>
+    <!-- {% for player in players|dictsort:"rank" %}
+        <p><a href="/player/{{player.id}}">{{player.rank}})  {{player.first_name}} {{player.last_name}}</a></p>
+    {% endfor %} -->
+    <div id="rapper">
+        <div id="players">
+            <h2 id ="title2">Undrafted </h2>
+            <div id="overflow">
+                    {% for player in undrafted|dictsort:"rank" %}
+                    <p> {{player.rank}}) <a href="/player/{{player.id}}"><span id="xp"> {{player.first_name}} {{player.last_name}}</span></a>  {{player.position}} <a href="/drafting/{{player.id}}" id ="clear">Draft</a></p></p>
+                    {% endfor %}
+            </div>                
+                
+        </div>
+        <div id="users">
+                <h2>Drafted</h2>
+                {% for player in drafted %}
+                    <p> <a href="/player/{{player.id}}" id="clear">{{player.first_name}} {{player.last_name}} </a> <a href="/redraft/{{player.id}}" id = "x">redraft?</a>
+                {% endfor %}
+        </div>
+        <div></div>
+        <h2><a href="/"><img src="/static/football/images/home.svg" alt="home icon" height="40px"></a></h2> 
+    </div>
+</body>
+</html>
